@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  mysql:
+    image: library/mysql:8.0
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data-mysql-2:/var/lib/mysql
+    # restart: always # ignored when deploying a stack in swarm mode or kubernetes
+    environment:
+      # NOTE: You should consider using aws rds when you are deploying to the cloud.
+      MYSQL_ROOT_PASSWORD: CzmRkxmRrpBHOv92k8uRSvUBMGjsZ5zpZ53xk5jpZ08
+volumes:
+  db-data-mysql-2:
+
