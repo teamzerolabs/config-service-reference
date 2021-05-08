@@ -18,7 +18,7 @@
     "mysql2": "^2.1.0",
     "nest-router": "^1.0.9",
     "rxjs": "^6.5.3",
-    "typeorm": "^0.2.22",
+    "typeorm": "^0.2.25",
     "typescript": "^3.7.3",
     "winston": "^3.2.1"
   },
